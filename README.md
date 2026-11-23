@@ -94,6 +94,35 @@ Neovim (leader `,`)
 | `kk` | leave insert mode and save |
 | `db` | insert a breakpoint |
 
+Built into Neovim, no config needed
+
+| Keys | Action |
+|---|---|
+| `K` | hover docs |
+| `Ctrl-]` | go to definition |
+| `grn` `grr` `gra` | rename, find references, code actions |
+| `[d` `]d` | previous, next error |
+| `gqq` `gq}` | wrap line, paragraph to `textwidth` |
+| `:set spell!` | toggle spellcheck |
+
+Surround ([vim-surround](https://github.com/tpope/vim-surround))
+
+| Keys | Action |
+|---|---|
+| `ysiw"` | quote the word under the cursor |
+| `yss"` | quote the whole line |
+| `S"` | quote the visual selection |
+| `ds"` | delete the quotes |
+
+Replace across files without a plugin:
+
+```vim
+:vimgrep /old_name/ **/*.sql
+:cfdo %s/old_name/new_name/g | update
+```
+
+`:MarkdownPreview` opens the current Markdown file in the browser.
+
 Python files are formatted with isort and black on save, and linted with flake8 and mypy.
 
 ## Lint this repo
