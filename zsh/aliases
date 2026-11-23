@@ -1,0 +1,17 @@
+alias vim=nvim
+alias python=python3
+alias pip=pip3
+alias pytest='python3 -m pytest'
+
+# Project virtualenv helpers (expects ./venv)
+alias activ='source venv/bin/activate'
+alias py='./venv/bin/ipython3 -i'
+alias jupyter='./venv/bin/jupyter-lab'
+
+alias pre='pre-commit run -a'
+alias gi='cd ~/git'
+
+# Shell into a pod: exec_pod <pod> <namespace>
+exec_pod() {
+  kubectl exec -it "$1" -n "$2" -- /bin/bash
+}
