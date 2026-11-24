@@ -7,7 +7,6 @@ Plug 'bronson/vim-trailing-whitespace'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
-Plug 'shime/vim-livedown'
 Plug 'pixelneo/vim-python-docstring'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
@@ -16,9 +15,8 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'tpope/vim-dadbod'
 Plug 'kristijanhusak/vim-dadbod-ui'
 Plug 'kristijanhusak/vim-dadbod-completion'
-" Formatting and linting
+" Formatting (linting is ALE, above)
 Plug 'stevearc/conform.nvim'
-Plug 'mfussenegger/nvim-lint'
 " Git
 Plug 'sindrets/diffview.nvim'
 Plug 'NeogitOrg/neogit'
