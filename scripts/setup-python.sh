@@ -3,7 +3,7 @@
 # These are the formatters and linters nvim calls. Safe to re-run; upgrades existing ones.
 set -euo pipefail
 
-TOOLS=(black isort flake8 mypy pre-commit sqlfluff ipython)
+TOOLS=(black isort flake8 mypy pre-commit sqlfluff ipython poetry)
 
 main() {
   require_pipx

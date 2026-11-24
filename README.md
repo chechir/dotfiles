@@ -30,7 +30,7 @@ Or run one piece at a time:
 ```bash
 make help     # list targets
 make shell    # brew packages, oh-my-zsh, vim-plug, tmux plugin manager, symlinks
-make python   # black, isort, flake8, mypy, pre-commit, sqlfluff, ipython via pipx
+make python   # black, isort, flake8, mypy, pre-commit, sqlfluff, ipython, poetry via pipx
 ```
 
 Then open a new terminal, start `tmux` and press `Ctrl-a I` to install the tmux plugins.

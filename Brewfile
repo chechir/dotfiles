@@ -1,4 +1,6 @@
 brew "git"
+# GitHub CLI; pushes over HTTPS where SSH is blocked
+brew "gh"
 brew "neovim"
 brew "tmux"
 brew "ripgrep"
