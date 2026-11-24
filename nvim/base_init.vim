@@ -47,7 +47,7 @@ nnoremap ) :tabnext<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                   Python                                    "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap db Obreakpoint()<CR>
+nnoremap db Oimport pdbp;pdbp.set_trace()<CR>
 nnoremap mm Oif __name__ == '__main__':<CR>
 
 " Pretty-print the buffer as JSON
