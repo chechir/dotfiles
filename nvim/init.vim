@@ -42,6 +42,8 @@ set textwidth=86
 set suffixesadd+=.py
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/venv/*,*/.ipynb_checkpoints
 
+" noselect: the completion menu never inserts an item you didn't pick
+set completeopt=menuone,noselect,popup
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 autocmd InsertLeave * pclose!
 
